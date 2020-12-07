@@ -37,3 +37,43 @@ header li a {
     font-weight: bold;
     font-size: 30px;
 }
+
+/* footer */
+
+footer {
+    grid-area: footer;
+    background: rgb(0, 39, 75);
+    text-align: center;
+    color: white;
+    padding: 30px 30px;
+}
+
+footer nav {
+    margin-bottom: 20px;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    margin: 0 10px;
+}
+
+footer a {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div p,
+footer div a {
+    font-size: 20px;
+    color: #ffffff;
+}
