@@ -12,3 +12,28 @@ a {
     text-decoration: none;
 }
 
+/* Header */
+
+header {
+    background: rgb(0, 39, 75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+header h1 {
+    display: flex;
+    text-align: center;
+    color: #ffffff;
+}
+header li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+header li a {
+    color: WHITE;
+    font-weight: bold;
+    font-size: 30px;
+}
