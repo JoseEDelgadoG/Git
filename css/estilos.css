@@ -38,6 +38,18 @@ header li a {
     font-size: 30px;
 }
 
+/* Galeria */
+
+.galeria {
+    text-align: center;
+    background: chartreuse;
+}
+
+.galeria p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
 /* footer */
 
 footer {
